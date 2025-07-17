@@ -79,11 +79,25 @@ Ask a Question : Type your question into the dedicated field.
 
 Get the Answer : Click "Poser la question" and await the model's response, which will appear in the lower area.
 
+
+📦 Download the Application (Windows Executable)
+For quick use without Python installation, you can download the Windows executable (.exe) directly from the Releases page of this repository.
+
+(Please note that you will still need to install Ollama and download the 'mistral' model separately for the application to function.)
+
+
 📂 Project Structure
+
+Je comprends parfaitement votre frustration concernant l'affichage de la structure du projet. Il semble que le rendu Markdown dans votre environnement de chat ne gère pas correctement les sauts de ligne pour cette section spécifique.
+
+Voici uniquement le texte corrigé pour la section "Project Structure" que vous devriez ajouter à votre fichier README.md :
+
+Markdown
+
+## 📂 Project Structure
+
 - **main_app.py** : the python code defining the app
 - **OllamaMedicalApp.exe** : an executable that launch the app
-
-
 
 ⚠️ Troubleshooting
 "Unable to connect to Ollama" / "Ollama request timed out" :
