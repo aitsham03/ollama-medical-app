@@ -11,37 +11,43 @@ Ollama Medical App is a powerful and intuitive desktop application designed to s
 
 The application allows you to load a PDF, extract its text, ask specific questions to the model, and obtain relevant information, all from a responsive interface.
 
+## 📦 Download the Application (Windows Executable)
+**For quick use without Python installation, you can download the Windows executable (.exe) directly from the Releases page of this repository.**
+
+(Please note that you will still need to install Ollama and download the 'mistral' model separately for the application to function.)
+
+
 ## ✨ Key Features
-PDF Loading and Preview : Easily import your medical report PDFs and visualize the extracted text.
+* PDF Loading and Preview : Easily import your medical report PDFs and visualize the extracted text.
 
-Context Editing : Modify the extracted text from the PDF directly in the interface to refine the context sent to the model, optimizing performance and response relevance.
+* Context Editing : Modify the extracted text from the PDF directly in the interface to refine the context sent to the model, optimizing performance and response relevance.
 
-Local LLM Querying : Ask precise questions to the Mistral model (via Ollama) about the document's content.
+* Local LLM Querying : Ask precise questions to the Mistral model (via Ollama) about the document's content. You don't have to worry about confidential documents because it's a local model.
 
-Responsive User Interface : The application remains fluid and responsive even while the model processes complex queries, thanks to the use of background threads.
+* Responsive User Interface : The application remains fluid and responsive even while the model processes complex queries, thanks to the use of background threads.
 
-Robust Error Handling : Clear messages and notifications guide you in case of issues (Ollama connection, timeout, etc.).
+* Robust Error Handling : Clear messages and notifications guide you in case of issues (Ollama connection, timeout, etc.).
 
 ## 🚀 Installation
 To get this application up and running, follow these simple steps:
 
-Prerequisites
+### Prerequisites
 Python 3.x (version 3.10 or higher recommended).
 
-Ollama : The runtime for language models. Download and install Ollama from their official website: https://ollama.com/download.
+* Ollama : The runtime for language models. Download and install Ollama from their official website: https://ollama.com/download.
 
-Ensure Ollama is running and active in the background on your machine.
+* Ensure Ollama is running and active in the background on your machine.
 
-Mistral Model : The application uses the mistral model. Open a terminal or command prompt and download the model: ollama pull mistral
+* Mistral Model : The application uses the mistral model. Open a terminal or command prompt and download the model: ollama pull mistral
 
 
-Python Dependencies
-Clone the repository :
+### Python Dependencies
+* Clone the repository :
 
 git clone https://github.com/aitsham03/ollama-medical-app
 cd ollama-medical-app
 
-Create and activate a virtual environment (highly recommended to isolate dependencies) :
+* Create and activate a virtual environment (highly recommended to isolate dependencies) :
 
 python -m venv venv
 # On Windows :
@@ -78,13 +84,6 @@ Adjust Context (optional) : If the document is very long or you want to target s
 Ask a Question : Type your question into the dedicated field.
 
 Get the Answer : Click "Poser la question" and await the model's response, which will appear in the lower area.
-
-
-📦 Download the Application (Windows Executable)
-For quick use without Python installation, you can download the Windows executable (.exe) directly from the Releases page of this repository.
-
-(Please note that you will still need to install Ollama and download the 'mistral' model separately for the application to function.)
-
 
 ## 📂 Project Structure
 
