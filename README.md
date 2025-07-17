@@ -9,7 +9,7 @@
 
 Ollama Medical App is a powerful and intuitive desktop application designed to simplify the analysis of medical reports in PDF format. Developed with PyQt6, it leverages the power of Large Language Models (LLM) by running the Mistral model locally via Ollama. This ensures complete confidentiality of your medical data and fast responses, without relying on external cloud services.
 
-*This project was undertaken as part of my internship as a first year engineering student at **APHP, PARIS 10e** in 2025, with the aim of discovering the application of local LLMs to medical document analysis.*
+*This project was undertaken as part of my internship as a first year engineering student at **APHP, PARIS 10e**, with the aim of discovering the application of local LLMs to medical document analysis.*
 
 The application allows you to load a PDF, extract its text, ask specific questions to the model, and obtain relevant information, all from a responsive interface.
 
