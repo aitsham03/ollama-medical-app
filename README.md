@@ -5,13 +5,13 @@
 <p align="center">
 <a href="https://github.com/your_username/ollama-medical-app">
 
-🌟 Description
+## 🌟Description
 
 Ollama Medical App is a powerful and intuitive desktop application designed to simplify the analysis of medical reports in PDF format. Developed with PyQt6, it leverages the power of Large Language Models (LLM) by running the Mistral model locally via Ollama. This ensures complete confidentiality of your medical data and fast responses, without relying on external cloud services.
 
 The application allows you to load a PDF, extract its text, ask specific questions to the model, and obtain relevant information, all from a responsive interface.
 
-✨ Key Features
+## ✨ Key Features
 PDF Loading and Preview : Easily import your medical report PDFs and visualize the extracted text.
 
 Context Editing : Modify the extracted text from the PDF directly in the interface to refine the context sent to the model, optimizing performance and response relevance.
@@ -22,7 +22,7 @@ Responsive User Interface : The application remains fluid and responsive even wh
 
 Robust Error Handling : Clear messages and notifications guide you in case of issues (Ollama connection, timeout, etc.).
 
-🚀 Installation
+## 🚀 Installation
 To get this application up and running, follow these simple steps:
 
 Prerequisites
@@ -62,7 +62,7 @@ PyPDF2
 requests
 
 
-💡 Usage
+## 💡 Usage
 Launch the application and start analyzing your documents!
 
 Launch the Application :
@@ -86,20 +86,12 @@ For quick use without Python installation, you can download the Windows executab
 (Please note that you will still need to install Ollama and download the 'mistral' model separately for the application to function.)
 
 
-📂 Project Structure
-
-Je comprends parfaitement votre frustration concernant l'affichage de la structure du projet. Il semble que le rendu Markdown dans votre environnement de chat ne gère pas correctement les sauts de ligne pour cette section spécifique.
-
-Voici uniquement le texte corrigé pour la section "Project Structure" que vous devriez ajouter à votre fichier README.md :
-
-Markdown
-
 ## 📂 Project Structure
 
 - **main_app.py** : the python code defining the app
 - **OllamaMedicalApp.exe** : an executable that launch the app
 
-⚠️ Troubleshooting
+## ⚠️ Troubleshooting
 "Unable to connect to Ollama" / "Ollama request timed out" :
 
 Ensure Ollama is running on your system.
