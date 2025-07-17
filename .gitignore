@@ -1,0 +1,16 @@
+# Ignorer les environnements virtuels
+venv/
+.venv/
+
+# Ignorer les caches Python
+__pycache__/
+*.pyc
+
+# Ignorer les dossiers de build de PyInstaller et les fichiers générés
+build/
+dist/
+*.spec
+
+# Fichiers spécifiques aux OS
+.DS_Store
+Thumbs.db
